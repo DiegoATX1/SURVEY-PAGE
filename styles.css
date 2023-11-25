@@ -1,0 +1,89 @@
+h1,p{
+  
+  color: white;
+  text-align: center;
+  margin: 1em auto;
+}
+.Formulario{
+
+  background-color: #272576;
+  width:  700px;
+  height: 1000px;
+
+
+}
+.container{
+
+  display: grid;
+  place-items: center;
+
+}
+body{
+background-image: url(https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/presentados-los-mayores-mapas-de-la-materia-del-universo/9058931-13-esl-MX/Presentados-los-mayores-mapas-de-la-materia-del-universo.jpg);
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+font-family: Arial;
+font-size: 16px;
+color: white;
+
+
+
+}
+  
+body:before{
+ 
+ content:"";
+ width: 100%;
+ min-height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: linear-gradient(90deg, #FFFF, #FFFF);
+ opacity: 0.2;
+ z-index: -1;
+
+
+
+}
+
+
+label {
+  display: block;
+  margin: 1rem 0 0 9rem;
+}
+input, textarea {
+  background-color: #FFFF;
+  border: 1px solid black;
+  
+}
+
+input[type="submit"] {
+  display: block;
+  width: 400px;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:green;
+  border-color: black;
+  border-width: 3px;
+  min-width: 300px;
+  color: white;
+}
+legend{
+    margin: 0.5rem 0 0 9rem;
+}
+textarea{
+
+margin: 0rem 0rem;
+width: 400px;
+}
+.abajo{
+height: 30px;
+width: 400px;
+margin: 0rem 0rem;
+border-radius: 0.24rem;
+}
+
