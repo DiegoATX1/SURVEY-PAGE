@@ -86,4 +86,44 @@ width: 400px;
 margin: 0rem 0rem;
 border-radius: 0.24rem;
 }
+*/ ajuste de pantashas */
+@media (max-width: 530px) {
+
+.Formulario{
+
+  width: 350px;
+  height: 1000px
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0 1rem;
+}
+legend{
+  margin: 0.5rem 0 0 1rem;
+}
+textarea{
+
+  margin: 0rem 0rem;
+  width: 310px;
+}
+input[type="submit"] {
+  display: block;
+  width: 200px;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:green;
+  border-color: black;
+  border-width: 3px;
+  min-width: 300px;
+  color: white;
+}
+.abajo{
+  height: 30px;
+  width: 300px;
+  margin: 0rem 0rem;
+  border-radius: 0.24rem;
+  }
+}
 
